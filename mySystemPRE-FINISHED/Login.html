@@ -13,21 +13,18 @@
 <body>  
     <div id = "frm">  
           
-        <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
-            <p>  
-                <label> Username: </label>  
-                <input type = "text" id ="user" name  = "user" />  
-            </p>  
-            <p>  
-                <label> Password: </label>  
-                <input type = "password" id ="pass" name  = "pass" />  
-            </p>  
-            <p>     
-                <input type =  "submit" class = "btn" value = "Login" />  
-            </p>
+        <p><form action="login.php" method="post"></p>
 
-            <a href="Index.html" class="rtbtn" >Return Home</a>
-        </form>  
+        <p><label for="username"> Username: </label></p>
+        <p><input type="text" id="username" name="username"></p>
+
+        <p><label for="password"> Password: </label></p>
+        <p><input type="password" id="password" name="password"></p><br>
+
+        <p><button type="submit" class="btn">Login</button></p>
+
+        <p><a href="Index.html" class="rtbtn">Return Home</a></p>
+    </form>
     </div>  
     <!-----validation for empty field------->   
     <script>  
