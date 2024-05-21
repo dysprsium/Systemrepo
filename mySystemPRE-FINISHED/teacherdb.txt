@@ -1,0 +1,9 @@
+teacher db
+lname
+fname
+id
+bday
+address
+num
+username
+password

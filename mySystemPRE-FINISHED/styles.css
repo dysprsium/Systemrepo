@@ -1,0 +1,86 @@
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+html {
+    background-image: url(images/dcdnhs.jpg);
+}
+
+body {
+    margin: 120px auto;
+    padding: 50px;
+    width: 25%;
+    color: black;
+    background-color: grey;
+    border: solid 5px grey;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+nav ul{
+    padding: 2%;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul li{
+    margin: 10px;
+    padding: 12px;
+
+}
+.btn {
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: green;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.rtbtn {
+    top: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    border: solid 2px grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 60%;
+    background: #c4c4c4;
+    color: white;
+}
+
+/*----------------login----------------*/
+
+
+
+/*-------------register------------------*/
+
+
+/*-----------------institutions----------------*/
+
+div Table {
+    text-align: center;
+}
+
+/*--------------------------credits--------------------------*/
+
+body{
+    font-weight: 600;
+}
+
+.me {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 255, 47);
+}
+.members {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    color: aqua;
+}

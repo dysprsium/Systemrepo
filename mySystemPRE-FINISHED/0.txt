@@ -1,0 +1,178 @@
+from line 24
+
+nav {
+    background: green;
+    margin-top: 8%;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: green;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.sidemenu {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.btn {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: lime;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-----------------------LogIn---------------------*/
+
+form {
+    padding: 5%;
+    text-align: center;
+}   
+
+.LogIn {
+    background: green;
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: green;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.eNp {
+    margin-top: 20px;
+}
+
+
+/*------------------Register-----------------*/
+
+.register{
+    background: green;
+    padding: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-radius: 20px;
+    border: green;
+}
+
+
+/*-----------------Institutions---------------*/
+
+.inst-table {
+    background: green;
+    padding: 10px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.company {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.employer {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.register-stud {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.stud-popu {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table tr td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+/*------------------------stats------------------*/
+
+
+
+
+/*------------------------Reports----------------*/
+
+
+
+/*-----------members---------*/
+
+.groupProg {
+    margin-top: 10%;
+    padding: 20px;
+    background: grey;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-style: solid;
+    border: grey;
+    border-radius: 20px;
+}
+
+.me {
+    text-decoration: none;
+    color: green;
+}
+
+.desc {
+    color: white;
+    margin-top: 30px;
+}
+
+.listofmem{
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+}
+
+
+
+$sql = "CREATE TABLE `workimmersionplacementplatform`.`student` (\n"
+
+    . "    `student_id` INT AUTO_INCREMENT PRIMARY KEY,\n"
+
+    . "    `fname` VARCHAR(255) NOT NULL,\n"
+
+    . "    `mname` VARCHAR(255) NOT NULL,\n"
+
+    . "    `lname` VARCHAR(255) NOT NULL,\n"
+
+    . "    `section` VARCHAR(255) NOT NULL,\n"
+
+    . "    `gradelvl` INT NOT NULL,\n"
+
+    . "    `lrn` INT NOT NULL,\n"
+
+    . "    `stream` ENUM(\'Academic\', \'TVL\') NOT NULL,\n"
+
+    . "    `strand` ENUM(\'STEM\', \'ABM\', \'GAS\', \'ICT\', \'EIM\') NOT NULL,\n"
+
+    . "    `sy` INT NOT NULL,\n"
+
+    . "    `companyassigned` VARCHAR(255) NOT NULL,\n"
+
+    . "    UNIQUE KEY `unique_constraint` (`fname`, `lname`, `section`, `gradelvl`, `companyassigned`)\n"
+
+    . ") ENGINE = InnoDB;";
+
+
+    $sql = "SELECT * FROM `teacher`;";
